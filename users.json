@@ -1,0 +1,63 @@
+[
+    {
+      "id": 1,
+      "email": "user1@example.com",
+      "password": "password123",
+      "isAdmin": false
+    },
+    {
+      "id": 2,
+      "email": "user2@example.com",
+      "password": "securepass",
+      "isAdmin": false
+    },
+    {
+      "id": 3,
+      "email": "user3@example.com",
+      "password": "anotherpw",
+      "isAdmin": true
+    },
+    {
+      "id": 4,
+      "email": "user4@example.com",
+      "password": "strong123",
+      "isAdmin": false
+    },
+    {
+      "id": 5,
+      "email": "user5@example.com",
+      "password": "mypassword",
+      "isAdmin": false
+    },
+    {
+      "id": 6,
+      "email": "user6@example.com",
+      "password": "test123",
+      "isAdmin": false
+    },
+    {
+      "id": 7,
+      "email": "user7@example.com",
+      "password": "securepassword",
+      "isAdmin": false
+    },
+    {
+      "id": 8,
+      "email": "user8@example.com",
+      "password": "adminpass",
+      "isAdmin": true
+    },
+    {
+      "id": 9,
+      "email": "user9@example.com",
+      "password": "userpass",
+      "isAdmin": false
+    },
+    {
+      "id": 10,
+      "email": "user10@example.com",
+      "password": "password456",
+      "isAdmin": false
+    }
+  ]
+  
