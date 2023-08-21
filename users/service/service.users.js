@@ -1,20 +1,10 @@
 import usersDal from "../dal/dal.users.js";
 import bcrypt from "bcrypt"
 
-async function getAllUsers(obj) {
-    const {id,email,password} = obj
+async function getAllUsers() {
     try {
         const data = await usersDal.readAllUsers()
-        const index = data.findIndex((user) => user.id === Number(id) && user.email === email && bcrypt.compareSync(password,user.password));
-        if (index === -1) {
-            return 'User not found';
-        }
-        else{
-            if(data[index].isAdmin===true){
-                console.log(data);
-                return data    }
-            else {return 'No access permission'}
-        }
+        return data
     }
     catch (error) {
         console.error('Error in service.users:', error.message);

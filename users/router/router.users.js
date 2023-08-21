@@ -1,12 +1,12 @@
 import express from "express"
-import usersDal from "../dal/dal.users.js";
+import middleware from "../Middleware.js";
 import controllerUsers from "../controller/controller.users.js";
 
 
 
 const routerUsers = express.Router();
 
-routerUsers.get('/',controllerUsers.getAllUsers)
+routerUsers.get('/',middleware.isAdmin,controllerUsers.getAllUsers)
 
 routerUsers.post('/',controllerUsers.addUser)
 

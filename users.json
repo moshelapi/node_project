@@ -9,7 +9,7 @@
         "id": 2,
         "email": "user2@example.com",
         "password": "securepass",
-        "isAdmin": false
+        "isAdmin": true
     },
     {
         "id": 3,
@@ -64,5 +64,16 @@
         "password": "$2b$10$DFP89.n32b1nu9CIlnyO8OtB5ZdSaiTrfYFQp2E8EFghQj3NSTutG",
         "isAdmin": true,
         "id": 11
+    },
+    {
+        "id": 12,
+        "email": "user10@example.com",
+        "password": "$2b$10$e0YpHlQlo964k2yNmn6kgOwAMD09zLRm5irnDA/ALzTpI8UY1xj3.",
+        "isAdmin": true
+    },
+    {
+        "id": 13,
+        "email": "user10@example.com",
+        "password": "$2b$10$9pKw/TvE1eBKzqhlVsYdyeuNrE3DeUJA/7xLtsiPs2ygYiqYPxVRm"
     }
 ]
