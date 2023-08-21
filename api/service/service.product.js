@@ -1,6 +1,6 @@
 
-import productDal from "./dal.product.js";
-
+import productDal from "../dal/dal.product.js";
+import bcrypt from "bcrypt"
 async function getAllProduct() {
     try {
         const data = await productDal.readAllProduct()
