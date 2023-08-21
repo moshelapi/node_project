@@ -12,6 +12,22 @@ async function getAllUsers() {
     }
 }
 
+async function getUserById(id) {
+    try {
+        const data = await usersDal.readAllUsers()
+        for (let obj of data) {
+            if (obj.id === Number(id)) {
+                return obj
+            }
+        }
+    }
+    catch (error) {
+        console.error('error in service:', error.message);
+        return null;
+    }
+}
+
+
 async function addUser(obj){
     const password = obj.password
     const hash = bcrypt.hashSync(password, 10);
@@ -27,10 +43,38 @@ async function addUser(obj){
 
 
 
+async function deleteUser(id) {
+    try {
+        const data = await usersDal.deleteUser(Number(id))
+        return data
+    }
+    catch (error) {
+        console.error('error in service:', error.message);
+        return null;
+    }
+}
+
+
+async function putUser(obj, id) {
+    try {
+        const data = await usersDal.putUser(obj, Number(id))
+        return data
+    }
+    catch (error) {
+        console.error('error in service:', error.message);
+        return null;
+    }
+
+}
+
+
 
 const userService = {
     getAllUsers,
-    addUser
+    addUser,
+    deleteUser,
+    putUser,
+    getUserById
 }
 
 export default userService
