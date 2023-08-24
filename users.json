@@ -1,1 +1,98 @@
-[{"id":2,"email":"user2@example.com","password":"securepass","isAdmin":true,"creator":3},{"id":3,"email":"user3@example.com","password":"anotherpw","isAdmin":true,"creator":3},{"id":5,"email":"user5@example.com","password":"mypassword","isAdmin":false,"creator":3},{"id":6,"email":"user6@example.com","password":"test123","isAdmin":false,"creator":3},{"id":7,"email":"user7@example.com","password":"securepassword","isAdmin":false,"creator":3},{"id":8,"email":"user8@example.com","password":"adminpass","isAdmin":true,"creator":3},{"id":9,"email":"user9@example.com","password":"userpass","isAdmin":false,"creator":3},{"email":"nseeue","password":"messi","isAdmin":false,"id":10,"creator":6},{"email":"aaaaaaaaa@example.com","password":"$2b$10$DFP89.n32b1nu9CIlnyO8OtB5ZdSaiTrfYFQp2E8EFghQj3NSTutG","isAdmin":true,"id":11,"creator":3},{"id":12,"email":"user10@example.com","password":"$2b$10$e0YpHlQlo964k2yNmn6kgOwAMD09zLRm5irnDA/ALzTpI8UY1xj3.","isAdmin":true,"creator":3},{"email":"aaaaa@example.com","password":"$2b$10$rG3poGJqTrw6MHYQtwewSOCy/HV8kS2yp5uOwEg5TvEYhuaiqN97W","isAdmin":false,"id":13},{"password":"$2b$10$o4VB4yIKfPoT1Q3WctNtH.lA29ScD4MONCqHeiXwiXjQQtF1Nqum.","isAdmin":true,"creator":3,"id":14},{"email":"user9@example.com","password":"$2b$10$HW4XP3iu9gTXL/wwkDXHw.PtCwNeRVIwVH0KK62.tN.iWoDyYSbnK","isAdmin":false,"creator":3,"id":15},{"email":"user9@example.com","password":"$2b$10$PqQv4Y43XqsjvzvYE9g.de7r4gHIw8hh6k/jJeShkaQc6Si53gzLW","isAdmin":false,"creator":3,"id":16}]
+[
+    {
+        "id": 2,
+        "email": "user2@example.com",
+        "password": "securepass",
+        "isAdmin": true,
+        "creator": 3
+    },
+    {
+        "id": 3,
+        "email": "user3@example.com",
+        "password": "anotherpw",
+        "isAdmin": true,
+        "creator": 3
+    },
+    {
+        "id": 5,
+        "email": "user5@example.com",
+        "password": "mypassword",
+        "isAdmin": false,
+        "creator": 3
+    },
+    {
+        "id": 6,
+        "email": "user6@example.com",
+        "password": "test123",
+        "isAdmin": false,
+        "creator": 3
+    },
+    {
+        "id": 7,
+        "email": "user7@example.com",
+        "password": "securepassword",
+        "isAdmin": false,
+        "creator": 3
+    },
+    {
+        "id": 8,
+        "email": "user8@example.com",
+        "password": "adminpass",
+        "isAdmin": true,
+        "creator": 3
+    },
+    {
+        "id": 9,
+        "email": "user9@example.com",
+        "password": "userpass",
+        "isAdmin": false,
+        "creator": 3
+    },
+    {
+        "email": "nseeue",
+        "password": "messi",
+        "isAdmin": false,
+        "id": 10,
+        "creator": 6
+    },
+    {
+        "email": "aaaaaaaaa@example.com",
+        "password": "$2b$10$DFP89.n32b1nu9CIlnyO8OtB5ZdSaiTrfYFQp2E8EFghQj3NSTutG",
+        "isAdmin": true,
+        "id": 11,
+        "creator": 3
+    },
+    {
+        "id": 12,
+        "email": "user10@example.com",
+        "password": "$2b$10$e0YpHlQlo964k2yNmn6kgOwAMD09zLRm5irnDA/ALzTpI8UY1xj3.",
+        "isAdmin": true,
+        "creator": 3
+    },
+    {
+        "email": "aaaaa@example.com",
+        "password": "$2b$10$rG3poGJqTrw6MHYQtwewSOCy/HV8kS2yp5uOwEg5TvEYhuaiqN97W",
+        "isAdmin": false,
+        "id": 13
+    },
+    {
+        "password": "$2b$10$o4VB4yIKfPoT1Q3WctNtH.lA29ScD4MONCqHeiXwiXjQQtF1Nqum.",
+        "isAdmin": true,
+        "creator": 3,
+        "id": 14
+    },
+    {
+        "email": "user9@example.com",
+        "password": "$2b$10$HW4XP3iu9gTXL/wwkDXHw.PtCwNeRVIwVH0KK62.tN.iWoDyYSbnK",
+        "isAdmin": false,
+        "creator": 3,
+        "id": 15
+    },
+    {
+        "email": "user9@example.com",
+        "password": "$2b$10$PqQv4Y43XqsjvzvYE9g.de7r4gHIw8hh6k/jJeShkaQc6Si53gzLW",
+        "isAdmin": false,
+        "creator": 3,
+        "id": 16
+    }
+]
