@@ -5,6 +5,7 @@ const file = 'C:\\Users\\User\\Desktop\\vs producte\\node.js\\node_server\\data.
 async function readAllProduct() {
     try {
         const data = await jsonfile.readFile(file);
+        console.log('messi');
         return data;
     } catch (error) {
         console.error('Error reading JSON file:', error.message);
