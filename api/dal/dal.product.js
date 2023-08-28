@@ -1,11 +1,14 @@
 import jsonfile from 'jsonfile';
+import { fileURLToPath } from 'url';
+import path from 'path';
 
-const file = 'C:\\Users\\User\\Desktop\\vs producte\\node.js\\node_server\\data.json';
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+const file = path.join(__dirname, 'data.json');
 
 async function readAllProduct() {
     try {
         const data = await jsonfile.readFile(file);
-        console.log('messi');
         return data;
     } catch (error) {
         console.error('Error reading JSON file:', error.message);
